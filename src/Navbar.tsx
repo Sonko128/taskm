@@ -11,7 +11,12 @@ const lnks: NavLink[] = [
     {lnk: '/', name: 'Home'},
     {lnk: '/student', name: "Students"},
     {lnk: '/teacher', name: "Teachers"},
-    {lnk: '/assign', name: 'Assignmenet'},
+    {lnk: '/assign', name: 'Assignmenet',
+    sublnks: [
+      {lnk: '/assign', name: 'Upload Assignmenet'},
+      {lnk: '/view', name: "Submitted work"},
+    ] 
+    },
     {lnk: '/notes', name: 'Notes'},
     {lnk: '/profile', name: 'Profile'},
     {lnk: '/login', name: 'Logout'},
