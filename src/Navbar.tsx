@@ -15,6 +15,7 @@ const lnks: NavLink[] = [
     sublnks: [
       {lnk: '/assign', name: 'Upload Assignmenet'},
       {lnk: '/view', name: "Submitted work"},
+      {lnk: '/grade', name: "Grading"},
     ] 
     },
     {lnk: '/notes', name: 'Notes'},

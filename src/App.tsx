@@ -5,6 +5,7 @@ import Add from './components/student/Add';
 import Add_teacher from './components/teacher/Add_teacher';
 import Add_assign from './components/assignment/Add_assign';
 import Add_notes from './components/notes/Add_notes';
+import Grading from './components/student/Grading';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/teacher' element={<Add_teacher/>} />
         <Route path='/assign' element={<Add_assign/>} />
         <Route path='/notes' element={<Add_notes/>} />
+        <Route path='/grade' element={<Grading/>} />
 
       </Routes>
     </BrowserRouter>
